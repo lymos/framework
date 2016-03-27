@@ -55,6 +55,9 @@ class Init{
 			$action_name = 'index';
 		}else{
 			$query = $_SERVER['QUERY_STRING'];
+			if(! $query){
+				$query = 'args=home/index/index';
+			}
 			$query_arr = explode('=', $query);
 			$args_arr = explode('/', $query_arr[1]);
 			$module_name = ucfirst($args_arr[0]);

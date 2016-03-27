@@ -8,7 +8,7 @@ namespace Home\Controllers;
 class IndexController extends \Controller\Controller{
 
     public static function indexAction(){
-        echo '<h2 style="text-align: center;">Hello</h2>';
+        echo '<p><p><h2 style="text-align: center;">Welcome To Lymos PHP Framework!</h2>';
     }
 }
 
