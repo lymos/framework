@@ -1,0 +1,48 @@
+/* form component css */
+.lym-form{
+	padding: 1% 20px;
+	border: 1px solid red;
+}
+.lym-form-lg{
+	width: 100%;
+}
+.lym-form-md{
+	width: 50%;
+}
+.lym-form-sm{
+	width: 33.333333%;
+}
+.lym-form-item{
+	margin-bottom: 10px;
+}
+.lym-form-item label.lym-textfield{
+	display: inline-block;
+	width: 49%;
+	text-align: right;
+	padding: 4px 6px;
+}
+.lym-form-item input[type=text], .lym-form-item input[type=password]{
+	width: 49%;
+	padding: 6px 4px;
+	border-radius: 4px;
+	border: 1px solid #cdcdcd;
+	box-shadow: 1px 1px 4px #ccc;
+}
+.lym-form-item input:focus, .lym-form-item input:hover{
+	border-color: #33ae33;
+}
+.lym-form-item .lym-input-block{
+	display: inline-block;
+}
+.lym-form-item .lym-input-block:hover{
+	cursor: pointer;
+}
+.lym-input-block input[type=radio]{
+	vertical-align: middle;
+	margin-top: -2.2px;
+	margin-right: 6px;
+}
+.lym-input-block input[type=checkbox]{
+	vertical-align: middle;
+	margin-top: 2.8px;
+	margin-right: 6px;
